@@ -1,11 +1,230 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Benim Portfolyom</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="DevOps Engineer Portfolio - Expertise in CI/CD, Infrastructure as Code, and Cloud Technologies">
+    <meta name="keywords" content="DevOps, CI/CD, Infrastructure as Code, Cloud, Docker, Kubernetes, Terraform">
+    <title>DevOps Engineer Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 <body>
-  <h1>Merhaba! Ben [Adın]</h1>
-  <p>Bu benim portfolyo sitem.</p>
+    <header>
+        <div class="container">
+            <h1>Mustafa Dal</h1>
+            <p class="title">DevOps Engineer</p>
+            <p class="tagline">Building scalable infrastructure solutions</p>
+        </div>
+    </header>
+
+    <nav>
+        <div class="nav-content">
+            <ul class="nav-links">
+                <li><a href="#about" aria-current="page">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">
+                <i class="fas fa-moon"></i>
+            </button>
+        </div>
+    </nav>
+
+    <main>
+        <section id="about" class="section">
+            <div class="container">
+                <h2>About Me</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>I'm a dedicated DevOps Engineer based in Turkey, passionate about building efficient and scalable systems. With a strong commitment to continuous learning, I've been fortunate to receive mentorship from seasoned professionals who have guided me in mastering best practices in automation, CI/CD pipelines, and cloud infrastructure.</p>
+                        <p>My approach combines technical expertise with a relentless drive to solve complex problems. I thrive in collaborative environments and am always eager to embrace new challenges that push me to grow.</p>
+                        <p>When I'm not immersed in code, I enjoy exploring the latest advancements in technology and contributing to open-source projects. I'm doing automation and crypto.</p>
+                    </div>
+                    <div class="about-image">
+                        <img src="1743330189271.jpeg" alt="Photo of Your Name" loading="lazy" width="400" height="400">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <div class="container">
+                <h2>Projects</h2>
+                <div class="projects-grid">
+                    <article class="project-card">
+                        <div class="project-icon">
+                            <i class="fas fa-cloud" aria-hidden="true"></i>
+                        </div>
+                        <h3>Terraform AWS Infrastructure</h3>
+                        <p>Automated AWS infrastructure deployment using Terraform, following best practices for security and scalability.</p>
+                        <a href="https://github.com/deepnix1/terraform_project_devops" class="project-link" target="_blank" rel="noopener">
+                            <i class="fab fa-github" aria-hidden="true"></i> View Project
+                        </a>
+                    </article>
+                    <article class="project-card">
+                        <div class="project-icon">
+                            <i class="fas fa-code-branch" aria-hidden="true"></i>
+                        </div>
+                        <h3>CI/CD Jenkins Pipeline</h3>
+                        <p>End-to-end CI/CD pipeline with Jenkins and Docker for automated testing and deployment.</p>
+                        <a href="https://github.com/deepnix1/CI_CD-jenkins-project" class="project-link" target="_blank" rel="noopener">
+                            <i class="fab fa-github" aria-hidden="true"></i> View Project
+                        </a>
+                    </article>
+                    <article class="project-card">
+                        <div class="project-icon">
+                            <i class="fas fa-sitemap" aria-hidden="true"></i>
+                        </div>
+                        <h3>Static Web S3 CloudFormation</h3>
+                        <p>Static website deployment on AWS S3 using CloudFormation and DevOps best practices.</p>
+                        <a href="https://github.com/deepnix1/kittens-carousel-static-web-s3-cloudFormation" class="project-link" target="_blank" rel="noopener">
+                            <i class="fab fa-github" aria-hidden="true"></i> View Project
+                        </a>
+                    </article>
+                    <article class="project-card">
+                        <div class="project-icon">
+                            <i class="fas fa-robot" aria-hidden="true"></i>
+                        </div>
+                        <h3>Python AI Agent for DevOps</h3>
+                        <p>Python-based AI agent for DevOps automation and monitoring.</p>
+                        <a href="https://github.com/deepnix1/Python_AI_Agent_devops" class="project-link" target="_blank" rel="noopener">
+                            <i class="fab fa-github" aria-hidden="true"></i> View Project
+                        </a>
+                    </article>
+                    <article class="project-card">
+                        <div class="project-icon">
+                            <i class="fas fa-paint-brush" aria-hidden="true"></i>
+                        </div>
+                        <h3>Setora Design Automation</h3>
+                        <p>Infrastructure and deployment automation for a web design project.</p>
+                        <a href="https://github.com/deepnix1/setoradesign" class="project-link" target="_blank" rel="noopener">
+                            <i class="fab fa-github" aria-hidden="true"></i> View Project
+                        </a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <div class="container">
+                <h2>Contact</h2>
+                <div class="contact-content">
+                    <p>I'm always open to discussing new opportunities and collaborations.</p>
+                    <div class="contact-links">
+                        <a href="mailto:mustafadall567@gmail.com" class="contact-link" aria-label="Email">
+                            <i class="fas fa-envelope" aria-hidden="true"></i>
+                            <span>mustafadall567@gmail.com</span>
+                        </a>
+                        <a href="https://www.linkedin.com/in/mustafa-dall/" class="contact-link" target="_blank" rel="noopener" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin" aria-hidden="true"></i>
+                            <span>LinkedIn</span>
+                        </a>
+                        <a href="https://github.com/deepnix1" class="contact-link" target="_blank" rel="noopener" aria-label="GitHub">
+                            <i class="fab fa-github" aria-hidden="true"></i>
+                            <span>GitHub</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Mustafa Dal. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Dark mode toggle functionality
+        const themeToggle = document.querySelector('.theme-toggle');
+        const icon = themeToggle.querySelector('i');
+        
+        // Check for saved theme preference
+        const savedTheme = localStorage.getItem('theme');
+        if (savedTheme) {
+            document.documentElement.setAttribute('data-theme', savedTheme);
+            updateIcon(savedTheme === 'dark');
+        }
+        
+        themeToggle.addEventListener('click', () => {
+            const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+            const newTheme = isDark ? 'light' : 'dark';
+            
+            document.documentElement.setAttribute('data-theme', newTheme);
+            localStorage.setItem('theme', newTheme);
+            updateIcon(!isDark);
+        });
+        
+        function updateIcon(isDark) {
+            icon.className = isDark ? 'fas fa-sun' : 'fas fa-moon';
+        }
+
+        // Scroll animations
+        const sections = document.querySelectorAll('.section');
+        const navLinks = document.querySelectorAll('.nav-links a');
+
+        const observerOptions = {
+            root: null,
+            rootMargin: '0px',
+            threshold: 0.1
+        };
+
+        const sectionObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, observerOptions);
+
+        sections.forEach(section => {
+            sectionObserver.observe(section);
+        });
+
+        // Active navigation link
+        const navObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const id = entry.target.getAttribute('id');
+                    navLinks.forEach(link => {
+                        link.removeAttribute('aria-current');
+                        if (link.getAttribute('href') === `#${id}`) {
+                            link.setAttribute('aria-current', 'page');
+                        }
+                    });
+                }
+            });
+        }, observerOptions);
+
+        sections.forEach(section => {
+            navObserver.observe(section);
+        });
+
+        // Hide navigation on scroll down, show on scroll up
+        let lastScroll = 0;
+        const nav = document.querySelector('nav');
+
+        window.addEventListener('scroll', () => {
+            const currentScroll = window.pageYOffset;
+            
+            if (currentScroll <= 0) {
+                nav.style.transform = 'translateY(0)';
+                return;
+            }
+            
+            if (currentScroll > lastScroll) {
+                nav.style.transform = 'translateY(-100%)';
+            } else {
+                nav.style.transform = 'translateY(0)';
+            }
+            
+            lastScroll = currentScroll;
+        });
+    </script>
 </body>
 </html>
